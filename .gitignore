@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+
+# Rust / Tauri build & generated output
+src-tauri/target/
+src-tauri/gen/
+src-tauri/WixTools/
+
+# Packaged bundles & installers
+*.app/
+*.dmg
+*.tar.gz
+*.sig
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Logs & diagnostics
+*.log
+npm-debug.log*
+
+# Environment & local secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor & IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
